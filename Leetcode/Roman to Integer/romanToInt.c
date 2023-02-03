@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int getRomanInt(char c)
 {
     int value;
