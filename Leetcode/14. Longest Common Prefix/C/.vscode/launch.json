@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/diel_/OneDrive/Projetos/Pratica/Leetcode/Roman to Integer",
-      "program": "c:/Users/diel_/OneDrive/Projetos/Pratica/Leetcode/Roman to Integer/build/Debug/outDebug",
+      "cwd": "c:/Users/diel_/OneDrive/Projetos/Pratica/Leetcode/14. Longest Common Prefix",
+      "program": "c:/Users/diel_/OneDrive/Projetos/Pratica/Leetcode/14. Longest Common Prefix/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
