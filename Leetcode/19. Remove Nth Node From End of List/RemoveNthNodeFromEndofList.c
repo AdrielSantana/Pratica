@@ -32,14 +32,15 @@ void insertAfter(struct Node *prev_node, int new_val)
 
 struct Node *removeNthFromEnd(struct Node *head, int n)
 {
-    struct Node *fast = head, *slow = head;
-    for (int i = 0; i < n; i++)
-        fast = fast->next;
-    if (!fast)
+    struct Node *iter = head;
+    int len = 0, i = 1;
+    while (iter)
+        iter = iter->next, len++;
+    if (len == n)
         return head->next;
-    while (fast->next)
-        fast = fast->next, slow = slow->next;
-    slow->next = slow->next->next;
+    for (iter = head; i < len - n; i++)
+        iter = iter->next;
+    iter->next = iter->next->next;
     return head;
 }
 
